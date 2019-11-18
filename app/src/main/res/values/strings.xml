@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ДЗ 1 (Русских А.Д.)</string>
-    <string name="help_text">Здесь вы можете посмотреть свой пароль, созданный по методу "Русское слово в английской раскладке"</string>
+    <string name="help_text">Здесь вы можете посмотреть свой пароль, созданный по методу «русское слово в английской раскладке»</string>
     <string name="help_text_generate">Сгенерируйте новый пароль ему на замену"</string>
     <string name="clipboard_title">Пароль</string>
     <string name="clipboard_message">Скопировано в буфер обмена</string>
