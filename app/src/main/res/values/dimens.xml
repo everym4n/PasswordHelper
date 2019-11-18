@@ -2,4 +2,9 @@
 <resources>
     <dimen name="activity_padding">16dp</dimen>
     <dimen name="margin_result">12dp</dimen>
+    <dimen name="result_stroke_radius">8dp</dimen>
+    <dimen name="quality_width">128dp</dimen>
+    <dimen name="quality_height">24dp</dimen>
+    <dimen name="button_copy_padding">16dp</dimen>
+    <dimen name="width_border_result">2dp</dimen>
 </resources>

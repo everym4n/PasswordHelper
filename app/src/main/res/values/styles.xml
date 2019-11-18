@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Material.Light">
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="android:colorPrimary">@color/colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -10,7 +10,17 @@
 
     <style name="ResultTextAppearance" parent="android:TextAppearance.Large">
         <item name="android:textSize">32sp</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/color_result_text</item>
+    </style>
+
+    <style name="CopyButtonAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/button_copy_padding</item>
+        <item name="android:backgroundTint">@color/color_copy_button_background</item>
+        <item name="android:tint">@color/color_copy_button_image</item>
+
+        <item name="android:src">@drawable/ic_content_copy_black_24dp</item>
     </style>
 
 </resources>

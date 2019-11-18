@@ -1,9 +1,29 @@
 <resources>
-    <string name="app_name">Русские пароли</string>
-    <string name="help_text">Введите пароль в русской раскладке</string>
+    <string name="app_name">ДЗ 1 (Русских А.Д.)</string>
+    <string name="help_text">Здесь вы можете посмотреть свой пароль, созданный по методу "Русское слово в английской раскладке"</string>
+    <string name="help_text_generate">Сгенерируйте новый пароль ему на замену"</string>
     <string name="clipboard_title">Пароль</string>
     <string name="clipboard_message">Скопировано в буфер обмена</string>
+    <string name="quality_placeholder">(сила пароля)</string>
+    <string name="check_uppercase">Заглавные</string>
+    <string name="check_numbers">Цифры</string>
+    <string name="check_special_characters">Спецсимволы</string>
+    <string name="button_generate">Генерировать</string>
+    <string name="password_hint">(русский пароль)</string>
+    <string name="password_length_title">Длина 8 + %s = %s</string>
+    <string name="upper_case_characters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="lower_case_characters">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="numbers">0123456789</string>
+    <string name="special_characters">#@$%^&amp;_</string>
 
+    <plurals name="symbol_count">
+        <item quantity="zero">%1$d символов</item>
+        <item quantity="one">%1$d символ</item>
+        <item quantity="two">%1$d символа</item>
+        <item quantity="few">%1$d символа</item>
+        <item quantity="many">%1$d символов</item>
+        <item quantity="other">%1$d символов</item>
+    </plurals>
 
     <string-array name="russian">
         <item>й</item>
@@ -38,10 +58,14 @@
         <item>ь</item>
         <item>б</item>
         <item>ю</item>
-
-
-
+        <item>Ж</item>
+        <item>Э</item>
+        <item>Х</item>
+        <item>Ъ</item>
+        <item>Б</item>
+        <item>Ю</item>
     </string-array>
+
     <string-array name="english">
         <item>q</item>
         <item>w</item>
@@ -75,10 +99,30 @@
         <item>m</item>
         <item>,</item>
         <item>.</item>
-
-
+        <item>:</item>
+        <item>\"</item>
+        <item>{</item>
+        <item>}</item>
+        <item>&lt;</item>
+        <item>&gt;</item>
 
 
     </string-array>
+
+    <string-array name="quality">
+        <item>@string/quality_placeholder</item>
+        <item>Ужасный</item>
+        <item>Ужасный</item>
+        <item>Очень плохой</item>
+        <item>Плохой</item>
+        <item>Слабый</item>
+        <item>Слабоватый</item>
+        <item>Нормальный</item>
+        <item>Лучше среднего</item>
+        <item>Хороший</item>
+        <item>Отличный</item>
+    </string-array>
+
+
 </resources>
 

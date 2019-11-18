@@ -1,4 +1,4 @@
-package com.mainapp.passwordlayout;
+package com.rusandre.passwordlayout;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.mainapp.passwordlayout", appContext.getPackageName());
+        assertEquals("com.rusandre.passwordlayout", appContext.getPackageName());
     }
 }

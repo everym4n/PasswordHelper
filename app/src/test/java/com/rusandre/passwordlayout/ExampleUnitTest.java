@@ -1,4 +1,4 @@
-package com.mainapp.passwordlayout;
+package com.rusandre.passwordlayout;
 
 import org.junit.Test;
 
